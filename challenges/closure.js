@@ -17,8 +17,16 @@ function myFunction() {
 myFunction();
 
 // Explanation: 
-
+// Javascript allows functions to reach 'outside' of themselves for input, but never 'in'. Because nestedFunction is at the same level as the variable inside myFunction, it can access the variable
 
 /* Task 2: Counter */
 
 /* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+
+function summation(param){
+  let acc = 0;
+  for(let i=0; i <= param; i++){
+    acc += i;
+  }
+  return acc;
+}
