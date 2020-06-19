@@ -35,10 +35,10 @@ A callback is a function that is passed into another function as a parameter. A 
 
 3. What is closure?
 
-Closure is when information or variables are passed into a function by the things around it. 
+Closure is when information or variables are passed into a function while inside another function around them that "bundles" them together. These inner functions will still work, even when the parent function is not being invoked
 
 4. Describe the four rules of the 'this' keyword.
-The four rules refer to what is calling the object. It can be New, implicit, explicit or global
+The four rules refer to what 'this' is pointing to. It can be New (this will point to the new array), implicit, explicit or global
 
 5. Why do we need super() in an extended class?
 To pull down attributes from the parent class
